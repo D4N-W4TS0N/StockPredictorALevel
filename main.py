@@ -12,7 +12,7 @@ currentDate = date.today()
 # Changes date to string format
 endDate = currentDate.strftime('%Y-%m-%d')
 # Finds the start date - in this case 2 months ago
-startDate = (currentDate - relativedelta(weeks=2)).strftime('%Y-%m-%d')
+startDate = (currentDate - relativedelta(years=5)).strftime('%Y-%m-%d')
 
 # initialises the __init__ method for the visualiser class, passing in the chosen ticker and start/end dates
 appleVisualiser = Visualiser(ticker)
